@@ -1,6 +1,3 @@
-Maze-Solving-Robot
-Roles: Algorithm & Frontend Developer
-
 In this project, an autonomous robot was developed to: 
 1) Traverse and map an unknown arena, avoiding obstacles 
 2) Plan and follow fastest path between two points 
