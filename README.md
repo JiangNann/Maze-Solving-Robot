@@ -10,12 +10,13 @@ Four subsystems were involved:
 1) Arduino(robot), which is in charge of assembly and control of the physical robot
 2) Raspberry Pi, which in in charge of inter-subsystem communications and image recognition model
 3) Android tablet simulator, which consists of a user interface for real-time monitoring of robot position, map exploration and image detection status. 
-4.1) Algorithm, which functions as the brain of the robot during exploration, fastest path and image detection.
-4.2) A desktop simulator that is used to:
-     1) simulate algorithms and expected robot behaviour in standalone mode 
-     2) same functionality as the Android tablet simulator in integrated mode.
+4) Algorithm and desktop simulator
+   4.1) Algorithm, which functions as the brain of the robot during exploration, fastest path and image detection.
+   4.2) A desktop simulator that is used to:
+          4.2.1) simulate algorithms and expected robot behaviour in standalone mode 
+          4.2.2) same functionality as the Android tablet simulator in integrated mode.
 
-I was in charge of 4. Algorithm and desktop simulator, thus only sourcecode for this subsystem is included in the repo.
+As I was in charge of 4.Algorithm and desktop simulator, only sourcecode for this subsystem is included in the repo.
 
 Highlights:
 * Developed and implemented an efficient maze-solving algorithm with the ability to:
