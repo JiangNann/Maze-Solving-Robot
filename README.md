@@ -8,10 +8,10 @@ Four subsystems were involved:
 2) Raspberry Pi, which in in charge of inter-subsystem communications and image recognition model
 3) Android tablet simulator, which consists of a user interface for real-time monitoring of robot position, map exploration and image detection status. 
 4) Algorithm and desktop simulator
-   4.1) Algorithm, which functions as the brain of the robot during exploration, fastest path and image detection.
-   4.2) A desktop simulator that is used to:
-          4.2.1) simulate algorithms and expected robot behaviour in standalone mode 
-          4.2.2) same functionality as the Android tablet simulator in integrated mode.
+   * Algorithm, which functions as the brain of the robot during exploration, fastest path and image detection.
+   * A desktop simulator that is used to:
+          - simulate algorithms and expected robot behaviour in standalone mode 
+          - same functionality as the Android tablet simulator in integrated mode.
 
 As I was in charge of 4.Algorithm and desktop simulator, only sourcecode for this subsystem is included in the repo.
 
