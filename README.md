@@ -9,9 +9,7 @@ Four subsystems were involved:
 3) Android tablet simulator, which consists of a user interface for real-time monitoring of robot position, map exploration and image detection status. 
 4) Algorithm and desktop simulator
    * Algorithm, which functions as the brain of the robot during exploration, fastest path and image detection.
-   * A desktop simulator that is used to:
-          - simulate algorithms and expected robot behaviour in standalone mode 
-          - same functionality as the Android tablet simulator in integrated mode.
+   * A desktop simulator that is used to: Simulate algorithms and expected robot behaviour in standalone mode; and same functionality as the Android tablet simulator in integrated mode.
 
 As I was in charge of 4.Algorithm and desktop simulator, only sourcecode for this subsystem is included in the repo.
 
